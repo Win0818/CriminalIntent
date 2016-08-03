@@ -1,5 +1,6 @@
 package com.example.criminalintent;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -68,5 +69,11 @@ public class CrimeFragment extends Fragment{
 		});
 		
 		return v;
+	}
+	
+	@Override
+	public void onActivityResult(int requestCode, int resultCode, Intent data) {
+		// TODO Auto-generated method stub
+		super.onActivityResult(requestCode, resultCode, data);
 	}
 }
