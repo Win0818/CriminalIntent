@@ -22,4 +22,10 @@ public class CrimeActivity extends FragmentActivity {
         	.commit();
         }
     }
+    
+    @Override
+    protected void onResume() {
+    	// TODO Auto-generated method stub
+    	super.onResume();
+    }
 }
