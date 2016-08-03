@@ -28,4 +28,10 @@ public class CrimeActivity extends FragmentActivity {
     	// TODO Auto-generated method stub
     	super.onResume();
     }
+    
+    @Override
+    protected void onDestroy() {
+    	// TODO Auto-generated method stub
+    	super.onDestroy();
+    }
 }
