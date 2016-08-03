@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
+import android.util.Log;
 
 
 public class CrimeActivity extends FragmentActivity {
@@ -33,5 +34,6 @@ public class CrimeActivity extends FragmentActivity {
     protected void onDestroy() {
     	// TODO Auto-generated method stub
     	super.onDestroy();
+    	Log.d("Wing", "------>>>>>>>>>>>>>>>>>>>>>>");
     }
 }
