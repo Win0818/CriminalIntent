@@ -83,7 +83,8 @@ public class CrimeListFragment extends Fragment{
 			//		.show();
 			//Intent intent = new Intent(getActivity(), CrimeActivity.class);
 			//startActivity(intent);
-			Intent intent = Utils.newIntent(getActivity(), mCrime.getId());
+			//Intent intent = Utils.newIntent(getActivity(), mCrime.getId());
+			Intent intent = CrimePagerActivity.newIntent(getActivity(), mCrime.getId());
 			startActivity(intent);
 		}
 	}
