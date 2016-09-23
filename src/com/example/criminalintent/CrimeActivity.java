@@ -9,7 +9,7 @@ import android.support.v4.app.Fragment;
 import com.example.criminalintent.util.Utils;
 
 
-public class CrimeActivity extends SingleFragmentActivity/*FragmentActivity */{
+/*public class CrimeActivity extends SingleFragmentActivityFragmentActivity {
 
 	@Override
 	protected Fragment createFragment() {
@@ -18,7 +18,7 @@ public class CrimeActivity extends SingleFragmentActivity/*FragmentActivity */{
 		JSONObject param = null;
 		String message = param.optString("msg");
 		return CrimeFragment.newInstance(crimeId);
-	}
+	}*/
 	
     /*@Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,4 +35,4 @@ public class CrimeActivity extends SingleFragmentActivity/*FragmentActivity */{
         }
     }*/
 
-}
+//}
